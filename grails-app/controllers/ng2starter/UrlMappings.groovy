@@ -10,6 +10,6 @@ class UrlMappings {
         }
 
         "/"(redirect: "/app/home")
-        "/app/**"(controller:"app")
+        "/app/**"(controller: "app")
     }
 }

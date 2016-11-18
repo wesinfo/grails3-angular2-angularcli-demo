@@ -7,10 +7,6 @@ import {AboutComponent} from './about';
 import {ContactComponent} from './contact';
 import {PersonFormComponent} from './form';
 
-import { NgModule }      from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule }   from '@angular/forms';
-
 
 @Component({
     selector: 'ng2starter',

@@ -1,11 +1,10 @@
 package ng2starter
 
 import grails.converters.JSON
-import org.dom4j.Text
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestMethod
 
-class DataController {
+class FormController {
     def prod=[
             'Bajaj','Renault','Audi21'
     ]
@@ -14,10 +13,11 @@ class DataController {
         Map data = [data: [prod]]
         render data as JSON
     }
-    @RequestMapping(value="/form/aboutform",method=RequestMethod.GET)
-    def about() {
-        Map data = [data: 'This page contains about']
-        render data as JSON
+
+    def aboutForm() {
+        List<Users> user = Users.findAll();
+//        Map data = [data: 'This page contains about']
+        render user as JSON
     }
 
     def contact() {
