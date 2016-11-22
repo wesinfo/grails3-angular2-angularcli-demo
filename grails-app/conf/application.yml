@@ -11,7 +11,7 @@ environments:
         grails:
             serverURL: http://localhost:8080
         dataSource:
-            dbCreate: create-drop
+            dbCreate: update
             url: jdbc:postgresql://localhost:5432/purchase
             username: postgres
             password: root
@@ -96,6 +96,9 @@ grails:
             xml:
               - text/xml
               - application/xml
+    assets:
+        bundle: true #dont individually require files in development
+        storagePath: /purchase/dist
     urlmapping:
         cache:
             maxsize: 1000

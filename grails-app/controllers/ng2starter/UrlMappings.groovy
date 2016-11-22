@@ -9,7 +9,7 @@ class UrlMappings {
             }
         }
 
-        "/"(redirect: "/app/home")
+        "/"(redirect: "/app")
         "/app/**"(controller: "app")
     }
 }
