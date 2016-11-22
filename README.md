@@ -4,4 +4,5 @@
 2. cd grails3-angular2-angularcli-demo/grails-app/assets/javascripts/ng2
 3. npm install
 4. ng build
-5. gradle bootRun
+5. cd /grails3-angular2-angularcli-demo
+6. gradle bootRun
