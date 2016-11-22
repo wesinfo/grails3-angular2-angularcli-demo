@@ -1,3 +1,5 @@
+## Before start 
+ 1. you should have installed nodejs angular-cli gradle and postgresql  
 ## Start command
 
 1. git clone https://github.com/wesinfo/grails3-angular2-angularcli-demo/new/master
