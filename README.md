@@ -11,3 +11,5 @@
 4. ng build
 5. cd /grails3-angular2-angularcli-demo
 6. gradle bootRun
+
+测试文件信息能否直接修改
